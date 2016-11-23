@@ -1,0 +1,19 @@
+#nav-bar {
+    display: block;
+    position: relative;
+    right: 5px;
+}
+.menu-button {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 30px;
+}
+.sgb-tl, .sgb-tm, .sgb-tr, .sgb-ml, .sgb-mm, .sgb-mr, .sgb-bl, .sgb-bm, .sgb-br {
+    display:inline-block;
+    background-color: #777;
+    width: 5px;
+    height: 5px;
+    /*border: 1px solid #ccc; */
+}
