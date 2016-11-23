@@ -8,32 +8,42 @@
 <body>
     <div id="nav-bar">
         <ul>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li><a href="https://www.google.co.za/intl/en/options/"></a>
-                <div class="menu-button">
-                    <div class="sgb-tl"></div>
-                    <div class="sgb-tm"></div>
-                    <div class="sgb-tr"></div>
-                    <div class="sgb-ml"></div>
-                    <div class="sgb-mm"></div>
-                    <div class="sgb-mr"></div>
-                    <div class="sgb-bl"></div>
-                    <div class="sgb-bm"></div>
-                    <div class="sgb-br"></div>
+            <div class="menu"><a href="https://mail.google.com/mail/">Gmail</a></div>
+            <div class="menu"><a href="https://www.google.co.za/imghp?hl=en&ei=7Mo1WPrlPMj6Uuivn2g&ved=0EKouCAIoAQ">Images</a></div>
+            <div class="menu"><a href="https://www.google.co.za/intl/en/options/"></a>
+                <div class="menu-button"><a href="https://www.google.co.za/intl/en/options/"></a>
+                    <div class="column">
+                        <div class="sgb-tl"></div>
+                        <div class="sgb-tm"></div>
+                        <div class="sgb-tr"></div>
+                    </div>
+                    <div class="column">
+                        <div class="sgb-ml"></div>
+                        <div class="sgb-mm"></div>
+                        <div class="sgb-mr"></div>
+                    </div>
+                    <div class="column">
+                        <div class="sgb-bl"></div>
+                        <div class="sgb-bm"></div>
+                        <div class="sgb-br"></div>
+                    </div>
                 </div>
-            </li>
+            </div>
         </ul>
     </div>
     <div id="logo">
-        <img src="https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        <img class="img-g" src="https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
         </img>
-        <div id="logo-sub">
-            <p class="g-blue">South Africa</p>
-        </div>
+        <p class="g-blue">South Africa</p>
+        <!-- <div id="logo-sub"> -->
+            <!-- <p class="g-blue">South Africa</p> -->
+        <!-- </div> -->
     </div>
     <div id="search">
-
+        <form class="search-box">
+            <div class="sb">Search Google or type URL</div>
+            <input type="text" name="g-search"></input>
+        </form>
     </div>
 </body>
 </html>

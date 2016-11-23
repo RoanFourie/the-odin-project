@@ -1,19 +1,108 @@
+html, body {
+    font: small arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
 #nav-bar {
-    display: block;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 1px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:focus, a:hover {
+    opacity: .85;
+    text-decoration: underline;
+}
+
+.menu {
+    display: inline-block;
     position: relative;
-    right: 5px;
+    text-decoration: none;
+    width: 50px;
+    /*text-align: -webkit-center;*/
+}
+.column {
+    position: relative;
+    display: inline-block;
+    width: 2px;
+    height: 21px;
 }
 .menu-button {
     display: inline-block;
     width: 30px;
-    height: 30px;
+    height: 1px;
     position: relative;
-    left: 30px;
+    left: 15px;
 }
 .sgb-tl, .sgb-tm, .sgb-tr, .sgb-ml, .sgb-mm, .sgb-mr, .sgb-bl, .sgb-bm, .sgb-br {
     display:inline-block;
     background-color: #777;
-    width: 5px;
-    height: 5px;
-    /*border: 1px solid #ccc; */
+    width: 4px;
+    height: 4px;
+    border: 1px solid #ffffff;
+}
+
+#logo {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 160px;
+    width: 280px;
+    /*background-color: red;*/
+}
+
+.img-g {
+    width: 100%;
+    /*background-color: yellow;*/
+    /*margin: auto;*/
+    /*margin-right: 50%;*/
+    /*margin-left: 50%;*/
+    left: 50%;
+}
+
+.g-blue {
+    color: #4285f4;
+    position: relative;
+    top: -35px;
+    width: 90px;
+    text-align: center;
+    font-size: larger;
+    left: 213px;
+    /*background-color: blue;*/
+}
+
+#search {
+    color: #a7a7a7;
+    position: relative;
+    top: 140px;
+    height: 35px;
+    width: 50%;
+    min-width: 140px;
+    left: 25%;
+    font-size: 16px;
+    color: #bbb;
+    text-overflow: ellipsis;
+
+    border-style: solid;
+    border-width: thin;
+}
+
+.sb, input {
+    background: transparent;
+
+    border: none;
+    position:absolute;
+    width: 100%;
+    height: 35px;
+    user-select: text;
+    cursor: auto;
+}
+
+input {
+    font: 18px arial,sans-serif;
 }
