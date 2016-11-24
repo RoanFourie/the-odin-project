@@ -13,11 +13,14 @@ a {
     text-decoration: none;
     color: #000;
 }
-a:focus, a:hover {
+.a1:focus, .a1:hover {
     opacity: .85;
     text-decoration: underline;
 }
-
+ul, .menu {
+    height: 18px;
+    vertical-align: middle;
+}
 .menu {
     display: inline-block;
     position: relative;
@@ -25,27 +28,62 @@ a:focus, a:hover {
     width: 50px;
     /*text-align: -webkit-center;*/
 }
+.blue-button{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    width: 110px;
+}
 .column {
     position: relative;
     display: inline-block;
     width: 2px;
-    height: 21px;
+    height: 18px;
+}
+.a-menu{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    left: 8px;
 }
 .menu-button {
     display: inline-block;
-    width: 30px;
-    height: 1px;
+    background-color: #000;
+    opacity: .55;
+    /*width: 18px;*/
+    height: 18px;
     position: relative;
-    left: 15px;
+    /*left: 18px;*/
+    cursor: pointer;
 }
-.sgb-tl, .sgb-tm, .sgb-tr, .sgb-ml, .sgb-mm, .sgb-mr, .sgb-bl, .sgb-bm, .sgb-br {
+.menu-button:hover {
+    opacity: .85;
+}
+.sgb {
     display:inline-block;
-    background-color: #777;
+    background-color: #000;
     width: 4px;
     height: 4px;
     border: 1px solid #ffffff;
 }
-
+.a-blue-button {
+    display: block;
+    /*position: relative;*/
+    padding: 7px 1px;
+    width: 80px;
+    /*height: 30px;*/
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: default;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 3px;
+}
+/*.a-blue-button:hover {
+    opacity: .85;
+}*/
 #logo {
     display: block;
     position: relative;
@@ -55,7 +93,6 @@ a:focus, a:hover {
     width: 280px;
     /*background-color: red;*/
 }
-
 .img-g {
     width: 100%;
     /*background-color: yellow;*/
@@ -64,7 +101,6 @@ a:focus, a:hover {
     /*margin-left: 50%;*/
     left: 50%;
 }
-
 .g-blue {
     color: #4285f4;
     position: relative;
@@ -75,7 +111,6 @@ a:focus, a:hover {
     left: 213px;
     /*background-color: blue;*/
 }
-
 #search {
     color: #a7a7a7;
     position: relative;
@@ -87,11 +122,9 @@ a:focus, a:hover {
     font-size: 16px;
     color: #bbb;
     text-overflow: ellipsis;
-
     border-style: solid;
     border-width: thin;
 }
-
 .sb, input {
     background: transparent;
 
@@ -102,7 +135,10 @@ a:focus, a:hover {
     user-select: text;
     cursor: auto;
 }
-
+.search-box {
+    vertical-align: middle;
+    line-height: 35px;
+}
 input {
     font: 18px arial,sans-serif;
 }
